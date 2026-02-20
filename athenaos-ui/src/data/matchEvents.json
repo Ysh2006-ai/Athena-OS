@@ -1,0 +1,58 @@
+[
+    {
+        "time": 2,
+        "playerId": "richa-ghosh",
+        "event": "DOT",
+        "pressureLevel": "HIGH",
+        "over": 18.1,
+        "commentary": "Defers the strike, pressure mounting."
+    },
+    {
+        "time": 8,
+        "playerId": "smriti-mandhana",
+        "event": "WICKET",
+        "pressureLevel": "HIGH",
+        "over": 18.2,
+        "commentary": "Huge wicket! The captain departs under pressure!"
+    },
+    {
+        "time": 15,
+        "playerId": "richa-ghosh",
+        "event": "DOT",
+        "pressureLevel": "HIGH",
+        "over": 18.3,
+        "commentary": "Swing and a miss. Need a boundary."
+    },
+    {
+        "time": 22,
+        "playerId": "richa-ghosh",
+        "event": "FOUR",
+        "pressureLevel": "HIGH",
+        "over": 18.4,
+        "commentary": "Smashed through covers! Release the pressure!"
+    },
+    {
+        "time": 28,
+        "playerId": "richa-ghosh",
+        "event": "SIX",
+        "pressureLevel": "HIGH",
+        "over": 18.5,
+        "commentary": "AND ANOTHER! SHE IS IN THE ZONE!"
+    },
+    {
+        "time": 35,
+        "playerId": "ellyse-perry",
+        "event": "DOT",
+        "pressureLevel": "MEDIUM",
+        "over": 19.1,
+        "commentary": "Good length delivery."
+    },
+    {
+        "time": 42,
+        "playerId": "ellyse-perry",
+        "event": "WICKET",
+        "pressureLevel": "HIGH",
+        "over": 19.2,
+        "commentary": "Clean bowled! The veteran strikes back!"
+    }
+]

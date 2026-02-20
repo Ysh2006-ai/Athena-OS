@@ -1,0 +1,41 @@
+[
+    {
+        "playerId": "richa-ghosh",
+        "name": "Richa Ghosh",
+        "team": "IND-W",
+        "role": "Wicketkeeper-Batter",
+        "avatar": "R",
+        "color": "blue",
+        "pressureProfile": {
+            "low": 1.0,
+            "medium": 1.2,
+            "high": 1.5
+        }
+    },
+    {
+        "playerId": "ellyse-perry",
+        "name": "Ellyse Perry",
+        "team": "AUS-W",
+        "role": "All-rounder",
+        "avatar": "E",
+        "color": "yellow",
+        "pressureProfile": {
+            "low": 1.0,
+            "medium": 1.1,
+            "high": 1.8
+        }
+    },
+    {
+        "playerId": "smriti-mandhana",
+        "name": "Smriti Mandhana",
+        "team": "IND-W",
+        "role": "Opener",
+        "avatar": "S",
+        "color": "blue",
+        "pressureProfile": {
+            "low": 1.2,
+            "medium": 0.9,
+            "high": 0.8
+        }
+    }
+]

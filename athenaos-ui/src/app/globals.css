@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --foreground: #1a1a1a;
+  --background: #fdfbf7;
+  /* Cream/Beige background from image */
+
+  /* Theme Colors */
+  --primary: #1a4731;
+  /* Deep Green */
+  --primary-light: #2d5e40;
+  --secondary: #d4e157;
+  /* Lime/Yellow accent if needed, or keeping simple */
+  --accent: #e8f5e9;
+
+  /* Emotion Colors */
+  --emotion-positive: #22c55e;
+  --emotion-negative: #ef4444;
+  --emotion-neutral: #94a3b8;
+  --emotion-euphoria: #8b5cf6;
+  --emotion-pressure: #f59e0b;
+
+  /* Semantic Analysis Colors */
+  --momentum-purple: #8b5cf6;
+  --risk-red: #ef4444;
+  --recovery-green: #10b981;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a4731;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #143625;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+    /* Centered X, slightly down Y */
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.rounded-b-4xl {
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
